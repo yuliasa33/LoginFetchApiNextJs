@@ -118,6 +118,11 @@ const LandingPageTemplate = () => {
               className={styles.technologyGrid}
             />
           </Container>
+          <Container wide>
+            <button>
+              <Link href="/beranda">go to beranda</Link>
+            </button>
+          </Container>
         </Section>
       </main>
       <footer>
